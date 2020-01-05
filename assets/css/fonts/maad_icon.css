@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'maad_icon';
+  src:  url('maad_icon.eot?76c99f');
+  src:  url('maad_icon.eot?76c99f#iefix') format('embedded-opentype'),
+    url('maad_icon.ttf?76c99f') format('truetype'),
+    url('maad_icon.woff?76c99f') format('woff'),
+    url('maad_icon.svg?76c99f#maad_icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="maad"], [class*=" maad"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'maad_icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.maadicon_add-user:before {
+  content: "\e900";
+}
+.maadicon_alert-circle-exc:before {
+  content: "\e901";
+}
+.maadicon_attached:before {
+  content: "\e902";
+}
+.maadicon_calendar:before {
+  content: "\e903";
+}
+.maadicon_cart:before {
+  content: "\e904";
+}
+.maadicon_chat-notification:before {
+  content: "\e905";
+}
+.maadicon_chat-room:before {
+  content: "\e906";
+}
+.maadicon_circle-remove:before {
+  content: "\e907";
+}
+.maadicon_close:before {
+  content: "\e908";
+}
+.maadicon_customers:before {
+  content: "\e909";
+}
+.maadicon_dashboard:before {
+  content: "\e90a";
+}
+.maadicon_down-arrow-small:before {
+  content: "\e90b";
+}
+.maadicon_edit:before {
+  content: "\e90c";
+}
+.maadicon_emoji:before {
+  content: "\e90d";
+}
+.maadicon_heart:before {
+  content: "\e90e";
+}
+.maadicon_help-center:before {
+  content: "\e90f";
+}
+.maadicon_home:before {
+  content: "\e910";
+}
+.maadicon_inbox:before {
+  content: "\e911";
+}
+.maadicon_Invoices:before {
+  content: "\e912";
+}
+.maadicon_lock-open:before {
+  content: "\e913";
+}
+.maadicon_media:before {
+  content: "\e914";
+}
+.maadicon_money-bag:before {
+  content: "\e915";
+}
+.maadicon_notification:before {
+  content: "\e916";
+}
+.maadicon_process:before {
+  content: "\e917";
+}
+.maadicon_products:before {
+  content: "\e918";
+}
+.maadicon_search:before {
+  content: "\e919";
+}
+.maadicon_setting:before {
+  content: "\e91a";
+}
+.maadicon_star:before {
+  content: "\e91b";
+}
+.maadicon_time-countdown:before {
+  content: "\e91c";
+}
+.maadicon_trend-up:before {
+  content: "\e91d";
+}
+.maadicon_up-arrow-small:before {
+  content: "\e91e";
+}

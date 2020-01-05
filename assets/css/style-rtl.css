@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+@import "fonts/Tajawal.css";
+
+
+* , h1 , h2 , h3 , h4 , h5 , h6{
+	font-family: 'Tajawal', 'Quicksand', Georgia, 'Times New Roman', Times, serif ;
+}
+
+.repeater-default .row:first-child .del_hid{
+	visibility: hidden;
+}
+
+.title , .auth {
+	    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

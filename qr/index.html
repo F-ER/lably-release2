@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Create QR </title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/qrcode.js"></script>
+</head>
+<body>
+<center>
+	<br><br>
+	<h1>Enter the values to convert to QR </h1>
+<form onsubmit="generate();return false;">
+	<input type="text" id="qr" name="" size="100">
+</form>
+<br><br>
+
+<div id="qrResult" style="height: 280px;width: 280px">
+	
+</div>
+
+<script type="text/javascript" size="100">
+
+	var qrcode=new QRCode(document.getElementById('qrResult'),{
+		width:280,
+		height:280
+	});
+
+</script>
+<br><br>
+
+<script type="text/javascript">
+function generate(){
+	var message=document.getElementById('qr');
+	if(!message.value){
+		alert("Input a text");
+		message.focus();
+		return;
+	}
+
+	qrcode.makeCode(message.value);
+}
+
+</script>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<input type="file" id="file" name="file">
+
+<p>Qr Content: <span id="content"></span></p>
+
+
+
+<!--To Read QR Code-->
+<script type="text/javascript" src="js/qrReader.js"></script>
+</center>
+</body>
+</html>
